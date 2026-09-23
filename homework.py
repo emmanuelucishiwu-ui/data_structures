@@ -1,4 +1,5 @@
-# first question
+# first question done
+
 fruits = ["Apple", "Banana", "Orange", "Mango", "Pineapple"]
 print(fruits)
 
@@ -6,7 +7,7 @@ print(fruits[0])
 print(fruits[-1])
 print(fruits[1])
 
-# second question
+# second question  done
 age = [10, 20, 30, 40, 50, 60, 70, 80]
 print(age[0:3])
 print(age[-3:  ])
@@ -15,7 +16,7 @@ print(age[1])
 agereverse = age.reverse()
 print(age)
 
-# third question
+# third question done
 
 animals = ["cats", "dogs", "rabbits"]
 
