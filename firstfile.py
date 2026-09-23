@@ -389,10 +389,10 @@
 # append() clear() copy() count() extend() insert() remove() pop() index()
 # reverse() sort()
 
-# list1 = [1,2,3,4,5,6]
+list1 = [1,2,3,4,5,6]
 # tuple1 = ["JM", "Uche", 20, True, 5+2j, 5/2, "Many", 5.5]
 
-# # listappend = list1.append("Python")
+# listappend = list1.append(1)
 # print(list1)
 
 
@@ -436,11 +436,31 @@
 # print(list1)
 
 
-tuple1 = ("JM", "Uche", 20, True, 5+2j, 5/2, "Many", 5.5, "JM" )
+# tuple1 = ("JM", "Uche", 20, True, 5+2j, 5/2, "Many", 5.5, "JM" )
 
 
-tupleops = tuple1.index("Uche")
-print(tupleops)
+# tupleops = tuple1.index("Uche")
+# print(tupleops)
 
-tuplecount = tuple1.count("JM")
-print(tuplecount)
+# tuplecount = tuple1.count("JM")
+# print(tuplecount)
+
+animals = ["cats", "dogs", "rabbits"]
+animalsappend = animals.append("lion")
+print(animals)
+
+animalsinsert = animals.insert(1, "tiger")
+print(animals)
+
+animalsremove = animals.remove("dogs")
+print(animals)
+
+animalsextend = animals.extend(["beer", "dear"])
+print(animals)
+
+
+animalssort = animals.sort()
+print(animals)
+
+# Print the final List 
+print(animals)
