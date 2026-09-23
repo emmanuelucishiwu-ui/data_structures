@@ -445,22 +445,3 @@ list1 = [1,2,3,4,5,6]
 # tuplecount = tuple1.count("JM")
 # print(tuplecount)
 
-animals = ["cats", "dogs", "rabbits"]
-animalsappend = animals.append("lion")
-print(animals)
-
-animalsinsert = animals.insert(1, "tiger")
-print(animals)
-
-animalsremove = animals.remove("dogs")
-print(animals)
-
-animalsextend = animals.extend(["beer", "dear"])
-print(animals)
-
-
-animalssort = animals.sort()
-print(animals)
-
-# Print the final List 
-print(animals)
